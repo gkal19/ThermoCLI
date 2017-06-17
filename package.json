@@ -1,6 +1,6 @@
 {
   "name": "thermocli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Faça conversão de Temperatura com o ThermoCLI.",
   "main": "./lib/thermo.js",
   "scripts": {
