@@ -23,9 +23,9 @@
   "keywords": [
     "Thermo",
     "ThermoCLI",
-    "celsius",
-    "fahrenheit",
-    "kelvin"
+    "Celsius",
+    "Fahrenheit",
+    "Kelvin"
   ],
   "author": "Gabriel Kalani",
   "license": "MIT",
