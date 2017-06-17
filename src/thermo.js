@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 'use strict';
-const prompt = require("prompt"),
-      program = require('commander'),
-      promptly = require('promptly'),
+const program = require('commander'),
       pkg = require('./package.json')
 
 program
