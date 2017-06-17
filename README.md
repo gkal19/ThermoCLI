@@ -20,6 +20,8 @@ $ npm i -g thermocli
 
 ## Uso
 
+Acesse qualquer Terminal e utilize algumas de linhas de comando abaixo:
+
 ![Usage](https://github.com/gkal19/ThermoCLI/blob/master/assets/usage.png "Usage")
 
 ## Créditos
