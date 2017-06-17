@@ -1,16 +1,19 @@
 {
-  "name": "thermoCLI",
+  "name": "thermocli",
   "version": "0.0.1",
   "description": "Faça conversão de Temperatura com o ThermoCLI.",
-  "main": "./thermo.js",
+  "main": "./lib/thermo.js",
   "scripts": {
-    "start": "node ./thermo.js",
+    "start": "node ./lib/thermo.js",
     "compile": "babel --source-maps -d lib/ src/",
     "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gkal19/Thermo.git"
+  },
+  "bin": {
+  "thermocli": "./lib/thermo.js"
   },
   "babel": {
     "presets": [
