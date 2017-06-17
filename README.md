@@ -26,5 +26,5 @@ Acesse qualquer Terminal e utilize algumas de linhas de comando abaixo:
 
 ## Créditos
 
-| [<img src="https://avatars1.githubusercontent.com/u/10136242?v=3&s=115"><br><sub>@theuves</sub>](https://github.com/theuves) | [<img src="https://avatars1.githubusercontent.com/u/9121359?v=3&s=115"><br><sub>@lubien</sub>](https://github.com/lubien) |
-|:-:|:-:|
+| [<img src="https://avatars1.githubusercontent.com/u/10136242?v=3&s=115"><br><sub>@theuves</sub>](https://github.com/theuves) | [<img src="https://avatars1.githubusercontent.com/u/9121359?v=3&s=115"><br><sub>@lubien</sub>](https://github.com/lubien) | [<img src="https://avatars1.githubusercontent.com/u/75607?v=3&s=115"><br><sub>@suissa</sub>](https://github.com/suissa) |
+|:-:|:-:|:-:|
