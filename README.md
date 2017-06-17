@@ -7,8 +7,8 @@
 </p>
 
 ## Sumário
--   [Instalar](#instalar)
--   [Uso](#uso)
+-   [Instalar](#Instalar)
+-   [Uso](#Uso)
 
 ## Instalar
 
@@ -19,7 +19,4 @@ $ npm i -g thermocli
 
 ## Uso
 
-Para rodar o aplicativo é só acessar qualquer terminal usando o comando:
-```shell
-$ thermo
-```
+![Usage](https://github.com/gkal19/ThermoCLI/blob/master/assets/usage.png "Usage")

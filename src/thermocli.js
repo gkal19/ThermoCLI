@@ -1,27 +1,22 @@
 #!/usr/bin/env node
 'use strict';
 const program = require('commander')
-      //pkg = require('./package.json')
 
 program
-	//Version Number
-  .version('0.0.6')
-  //.usage
+  .version('0.1.2')
   .usage('[options] <number>')
-  	//Celsius
-  .option('--c2f', 'Celsius para Fahrenheit')
-  .option('--c2k', 'Celsius para Kelvin')
-  	//Fahrenheit
-  .option('--f2c', 'Fahrenheit para Celsius')
-  .option('--f2k', 'Fahrenheit para Kelvin')
-  	//Kelvin
-  .option('--k2c', 'Kelvin para Celsius')
-  .option('--k2f', 'Kelvin para Fahrenheit')
+  .option('--c2f', 'convert Celsius to Fahrenheit')
+  .option('--c2k', 'convert Celsius to Kelvin')
+  .option('--f2c', 'convert Fahrenheit to Celsius')
+  .option('--f2k', 'convert Fahrenheit to Kelvin')
+  .option('--k2c', 'convert Kelvin to Celsius')
+  .option('--k2f', 'convert Kelvin to Fahrenheit')
 
 program.on('--help', () => {
-  console.log('  Exemplo:');
+  console.log('  Example:');
   console.log('');
-  console.log('    $ thermo --c2f <number>');
+  console.log('    $ thermo --c2f 32');
+  console.log('    Converting 32 Degrees Celsius to Degrees Fahrenheit equals to 89.6 Degrees Fahrenheit')
   console.log('');
 });
 
@@ -30,19 +25,19 @@ program.parse(process.argv);
 const num = parseFloat(program.args[0])
 
 if (program.c2f) {
-  console.log(`Convertendo ${num} Graus Celsius em Fahrenheit é igual á ${num * 1.8  + 32}`);
+  console.log(`Converting ${num} Degrees Celsius to Degrees Fahrenheit equals to ${num * 1.8  + 32} Degrees Fahrenheit`);
 } else if (program.c2k) {
-  console.log(`Convertendo ${num} Graus Celsius em Kelvin é igual á ${(num ) + 273.15}`);
+  console.log(`Converting ${num} Degrees Celsius to Kelvin equals to ${(num ) + 273.15}`);
 }
 
 if (program.f2c) {
-  console.log(`Convertendo ${num} Fahrenheit em Celsius é igual á ${(num - 32 ) / 1.8}`);
+  console.log(`Converting ${num} Degrees Fahrenheit to Degrees Celsius equals to ${(num - 32 ) / 1.8} Degrees Celsius`);
 } else if (program.f2k) {
-  console.log(`Convertendo ${num} Fahrenheit em Kelvin é igual á ${(num - 32) * 5 / 9 + 273.15}`);
+  console.log(`Converting ${num} Degrees Fahrenheit to Kelvin equals to ${(num - 32) * 5 / 9 + 273.15}`);
 }
 
 if (program.k2c) {
-  console.log(`Convertendo ${num} Kelvin em Celsius é igual á ${num - 273.15}`);
+  console.log(`Converting ${num} Kelvin to Degrees Celsius equals to ${num - 273.15} Degrees Celsius`);
 } else if (program.k2f) {
-  console.log(`Convertendo ${num} Kelvin em Fahrenheit igual á ${num * 1.8 - 459.67}`);
+  console.log(`Converting ${num} Kelvin to Degrees Fahrenheit igual á ${num * 1.8 - 459.67} Degrees Fahrenheit`);
 }
