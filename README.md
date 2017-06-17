@@ -9,6 +9,7 @@
 ## Sumário
 -   [Instalar](#Instalar)
 -   [Uso](#Uso)
+-   [Créditos](#Créditos)
 
 ## Instalar
 
@@ -20,3 +21,8 @@ $ npm i -g thermocli
 ## Uso
 
 ![Usage](https://github.com/gkal19/ThermoCLI/blob/master/assets/usage.png "Usage")
+
+## Créditos
+
+| [<img src="https://avatars1.githubusercontent.com/u/10136242?v=3&s=115"><br><sub>@theuves</sub>](https://github.com/theuves) | [<img src="https://avatars1.githubusercontent.com/u/9121359?v=3&s=115"><br><sub>@lubien</sub>](https://github.com/lubien) |
+|:-:|:-:|
