@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gkal19/Thermo.git"
+    "url": "git+https://github.com/gkal19/ThermoCLI.git"
   },
   "bin": {
     "thermocli": "./lib/thermo.js"
