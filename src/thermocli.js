@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 'use strict';
-const program = require('commander'),
-      pkg = require('./package.json')
+const program = require('commander')
+      //pkg = require('./package.json')
 
 program
 	//Version Number
-  .version(pkg.version)
+  .version('0.0.6')
   //.usage
   .usage('[options] <number>')
   	//Celsius
